@@ -1,37 +1,30 @@
-<<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Article</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>header section - About Fishing </title>
-</head>
-<body>
-   <div class="header"></div>
-     
-   <div class="container">
-     <div class="sidebar">
-        <div class="navbar">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Fish</a></li>
-            <li><a href="#">River</a></li>
-            <li><a href="#">Fishman</a></li>           
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/ccs?family=Comfortaa" rel="stylesheet">
+    
+        <link rel="stylesheet" href="ctyle.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Videoplayer</h1>
+    
+            <video width="400" height="300" poster id="video-player">
+                <source src="video/Big Buck Bunny.mp4" type="video/mp4">      
+            </video>
+            <div>
+                <progress id="progress" max="100" value="0" style="width: 80%; margin: 0 auto;"></progress>
+            </div>
             
-            <a href=""></a>
-          </ul>
-     </div>
-     <div class="navbar"
-
-     </div>
-
-
-    </div>
-     <div class="content"></div>
-     
-  </div>
-
-  <div class="footer"></div>  
-</body>
-</html>
+            <div><button id="play">Play</button></div>
+            <div><button id="pausw">Pause</button></div>
+            <div><button id="stop">Stop</button></div>
+            <div><input type="range" id="volume"  min=0 max=100 >Volume</div>
+    
+        </div>
+    </body>
+    </html>
